@@ -4,7 +4,7 @@
         <title>Video School</title>
     </head>
     <body>
-        <?= $content?>
+        <?= $content ?>
     </body>
 
 </html>

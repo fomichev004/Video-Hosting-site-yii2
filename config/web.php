@@ -1,6 +1,6 @@
 <?php
 
-    return [
-        'id' => 'videp',
-        'basePath' => realpath(__DIR__ . '/../')
-    ];
+return [
+    'id' => 'videp',
+    'basePath' => realpath(__DIR__ . '/../')
+];
