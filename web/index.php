@@ -1,8 +1,5 @@
 <?php
     require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
-    $config = [
-            'id' => 'video',
-            'basePath' => realpath(__DIR__ . '/../')
-    ];
+    $config = require __DIR__ . '/../config/web.php';
     $yii = new yii\web\Application($config);
     $yii->run ();
